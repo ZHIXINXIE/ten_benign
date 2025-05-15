@@ -12,5 +12,5 @@
 2. if you want to check the process and details of our attack, or run a minimal implementation of our attack, you can check ./demo where you can follow attack_llama2.ipynb or just watch attack_llama2.mp4
 
 <video width="320" height="240" controls>
-  <source src="demo\attack_llama2.mp4" type="video/mp4">
+  <source src="demo/attack_llama2.mp4" type="video/mp4">
 </video>
