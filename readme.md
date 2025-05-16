@@ -5,7 +5,7 @@
 3. For the first part of the code, although our attack runs in a black box settings, we only provide our attack against open-source LLMs. That is because we use the online dashboard (https://platform.openai.com/finetune) on OpenAI to fine-tune and attack the closed source models. 
 4. Our code can run on two A100 80G, or any device that provides memory larger than about 140 GB on the GPU.
 5. In our attack, we use ".pkl" to store python objects such as list or tuple. We use "op.load" and "op.save" to operate on it. We specifically point out that because it is not a widely used method.
-6. You should configure your llama2 path in the 2 line in "./code/Tool/config.py"
+6. You should configure your code path in "./code/Tool/config.py"
 7. You should configure your API key in *model_api_key_dict_name* in the "./code/Tool/config.py". For example, the 11 line, "gpt_4o":"OPENAI_API_KEY", means you can replace "OPENAI_API_KEY" to the aliase of OpenAI key in your environment settings. 
 ## How to simply run our code?
 1. if you want to replicate the experiment, you can run start.sh
