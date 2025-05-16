@@ -120,8 +120,7 @@ epoch1 = 10
 lr1 = 5e-5
 epoch2 = 10
 lr2 = 5e-5
-# model_path = model_path_dict["llama2"]
-model_path = "/export/home2/zhixin/research/resource/pretrained_model/llama/Llama-2-7b-chat-hf"
+model_path = model_path_dict["llama2"]
 system_prompt = ""
 
 # load the model
